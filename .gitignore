@@ -12,3 +12,4 @@ __pycache__/
 # Ignore PyCharm files
 .idea/
 *.iml
+.env
