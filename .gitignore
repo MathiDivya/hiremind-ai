@@ -1,0 +1,14 @@
+# Ignore dataset files
+data/
+*.jsonl
+
+# Ignore virtual environment
+venv/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore PyCharm files
+.idea/
+*.iml

@@ -1,0 +1,239 @@
+candidate_id,llm_explanation
+CAND_0000031,"FIT_SCORE: 85
+
+STRENGTHS:
+- Strong background in Recommendation Systems, which is a key area of focus for the role.
+- Relevant experience with FAISS and Pinecone, which are vector databases used in retrieval systems.
+
+RISKS:
+- Limited experience with Ranking Systems, which is another key area of focus for the role.
+- Presence of unrelated skills such as Image Classification and Speech Recognition, which may not be directly applicable to the role.
+
+FINAL_DECISION: Hire"
+CAND_0000093,"FIT_SCORE: 20
+
+STRENGTHS:
+- The candidate has 8.2 years of experience, which is a significant amount of experience.
+- The candidate is open to work, which is a positive signal.
+
+RISKS:
+- The candidate's current title is a Civil Engineer, which is unrelated to the AI Engineer role.
+- The candidate's top skills are mostly related to software development and content writing, but not directly related to AI or machine learning.
+- The candidate's career titles do not include any AI or machine learning roles.
+- The candidate's skills do not match the preferred skills listed in the job description.
+
+FINAL_DECISION: Reject"
+CAND_0000082,"FIT_SCORE: 60
+
+STRENGTHS:
+- Relevant experience in data engineering (7.4 years)
+- Familiarity with Embeddings and Pinecone (vector database)
+
+RISKS:
+- Current title is Data Analyst, not a technical leadership role
+- Lack of direct experience in Retrieval Systems, Search Systems, Ranking Systems, Recommendation Systems, and Production ML Systems
+- Presence of unrelated skills like GANs, TTS, YOLO, and HTML
+
+FINAL_DECISION: Maybe"
+CAND_0000038,"FIT_SCORE: 20
+
+STRENGTHS:
+- Relevant years of experience (6.7 years)
+- Open to work (True)
+
+RISKS:
+- Primary background is Java Development, not AI Engineering
+- Lack of direct experience in Retrieval Systems, Search Systems, Ranking Systems, Recommendation Systems, NLP, Embeddings, Vector Databases, and Production ML Systems
+- Presence of non-relevant skills such as PowerPoint, Figma, and Redux
+
+FINAL_DECISION: Reject"
+CAND_0000069,"FIT_SCORE: 20
+
+STRENGTHS:
+- The candidate has 13+ years of experience, which is a significant advantage.
+- They have a decent recruiter response rate, indicating some level of engagement.
+
+RISKS:
+- The candidate's current title is Business Analyst, which is not a technical role.
+- Their top skills are mostly related to software development and data engineering, but not directly related to AI or machine learning.
+- Their career titles include Graphic Designer and HR Manager, which are non-technical roles.
+- They lack experience in Retrieval Systems, Search Systems, Ranking Systems, Recommendation Systems, NLP, Embeddings, Vector Databases, and Production ML Systems, which are the key requirements for the role.
+
+FINAL_DECISION: Reject"
+CAND_0000015,"FIT_SCORE: 20
+
+STRENGTHS:
+- The candidate has experience as a Software Engineer, which is relevant to the position.
+- They have some technical skills, such as PyTorch and Qdrant, that could be applicable to the role.
+
+RISKS:
+- The candidate's top skills include 'Sales' and 'SEO', which are not relevant to the position and are actually in the reject list.
+- Their skills also include 'Content Writing' and 'Figma', which are not directly related to AI engineering.
+- The candidate's career titles include 'Mobile Developer' and 'DevOps Engineer', but not any AI-related roles.
+
+FINAL_DECISION: Reject"
+CAND_0000021,"FIT_SCORE: 20
+
+STRENGTHS:
+- Experience with Recommendation Systems
+- Familiarity with fine-tuning LLMs
+
+RISKS:
+- Primary background is not in technical roles, but rather in project management and non-technical roles
+- Notice period is 60 days, which may be a concern for a senior role with high expectations
+
+FINAL_DECISION: Reject"
+CAND_0000025,"FIT_SCORE: 20
+
+STRENGTHS:
+- Relevant experience in Cloud (GCP) and DevOps
+- Familiarity with data pipelines and ETL
+
+RISKS:
+- Primary background is in Frontend Engineering, not AI Engineering
+- Lack of direct experience in Retrieval Systems, Search Systems, Ranking Systems, Recommendation Systems, NLP, Embeddings, Vector Databases, and Production ML Systems
+
+FINAL_DECISION: Reject"
+CAND_0000063,"FIT_SCORE: 20
+
+STRENGTHS:
+- Open To Work: The candidate is actively looking for a new opportunity.
+- Profile Completeness: The candidate has a relatively complete profile, which suggests they are serious about their career.
+
+RISKS:
+- Lack of relevant skills: The candidate's top skills do not align with the required skills for the Founding Senior AI Engineer position.
+- Limited experience in AI/ML: The candidate's experience is primarily in Java development, with no clear indication of experience in AI/ML or related fields.
+
+FINAL_DECISION: Reject"
+CAND_0000055,"FIT_SCORE: 20
+
+STRENGTHS:
+- 7.3 years of experience in software development
+- Familiarity with backend systems and APIs
+
+RISKS:
+- Lack of direct experience in AI/ML, Retrieval Systems, Search Systems, Ranking Systems, Recommendation Systems, NLP, Embeddings, Vector Databases, and Production ML Systems
+- Primary background is in Full Stack Development, not AI Engineering
+
+FINAL_DECISION: Reject"
+CAND_0000001,"FIT_SCORE: 60
+
+STRENGTHS:
+- Relevant experience as a Backend Engineer with 6.9 years of experience
+- Familiarity with NLP, which is a key area of focus for the role
+
+RISKS:
+- Lack of direct experience in Retrieval Systems, Search Systems, Ranking Systems, Recommendation Systems, and Vector Databases
+- Presence of non-relevant skills such as Tailwind, Image Classification, Fine-tuning LLMs, Weights & Biases, Speech Recognition, Photoshop, TTS, LoRA, and Apache Beam, which may indicate a broader skill set but not directly applicable to the role
+- Presence of Speech Recognition and Pure Speech AI skills, which are outside the preferred areas of focus
+
+FINAL_DECISION: Maybe"
+CAND_0000075,"FIT_SCORE: 20
+
+STRENGTHS:
+- Machine Learning skill is present in the candidate's top skills.
+- Terraform and Apache Flink are relevant technologies.
+
+RISKS:
+- The candidate's primary background is as a Full Stack Developer, which is not strongly preferred.
+- The candidate's skills do not directly align with the job description's focus on Retrieval, Ranking, Embeddings, Vector Databases, and Production ML.
+- The candidate has limited profile completeness and is not open to work.
+
+FINAL_DECISION: Reject"
+CAND_0000045,"FIT_SCORE: 20
+
+STRENGTHS:
+- 12.2 years of experience, which could be beneficial in a technical role.
+- Open to work, indicating a willingness to consider new opportunities.
+
+RISKS:
+- Primary background is in Project Management, which does not align with the required technical skills.
+- Top skills include 'Sales' and 'Graphic Designer', which are not relevant to the position.
+- Career titles include 'Marketing Manager', 'Content Writer', and 'Graphic Designer', further indicating a non-technical background.
+- Lack of technical skills such as Retrieval Systems, Search Systems, Ranking Systems, Recommendation Systems, NLP, Embeddings, Vector Databases, and Production ML Systems.
+
+FINAL_DECISION: Reject"
+CAND_0000088,"FIT_SCORE: 20
+
+STRENGTHS:
+- 7.6 years of experience as a Java Developer, which could be transferable to a Senior AI Engineer role with proper training.
+- Familiarity with BigQuery and Snowflake, which are relevant to data storage and retrieval.
+
+RISKS:
+- Primary background is Java Development, not AI or Machine Learning, which is a significant mismatch for the required skills.
+- Lack of direct experience in Retrieval Systems, Search Systems, Ranking Systems, Recommendation Systems, NLP, Embeddings, Vector Databases, and Production ML Systems.
+- Presence of unrelated skills like GANs, OpenCV, and SEO, which may not be directly applicable to the Senior AI Engineer role.
+- Notice period of 30 days may cause delays in onboarding.
+
+FINAL_DECISION: Reject"
+CAND_0000016,"FIT_SCORE: 20
+
+STRENGTHS:
+- Open To Work: The candidate is actively looking for a new opportunity.
+- Career Titles: The candidate has experience in multiple roles, indicating adaptability.
+
+RISKS:
+- Primary Background: The candidate's primary background is in Accounting, which is not preferred.
+- Skills: The candidate's top skills are in Node.js, Figma, and Photoshop, which are not relevant to the role.
+- Lack of Relevant Experience: The candidate has no experience in AI, ML, or related fields.
+
+FINAL_DECISION: Reject"
+CAND_0000072,"FIT_SCORE: 20
+
+STRENGTHS:
+- 7 years of experience in software engineering
+- Familiarity with backend systems and APIs
+
+RISKS:
+- Primary background is in frontend engineering, not AI or ML
+- Lack of relevant skills in Retrieval Systems, Search Systems, Ranking Systems, Recommendation Systems, NLP, Embeddings, Vector Databases, and Production ML Systems
+- Presence of unrelated skills such as Content Writing and GANs
+
+FINAL_DECISION: Reject"
+CAND_0000079,"FIT_SCORE: 20
+
+STRENGTHS:
+- Open To Work: The candidate is actively looking for a new opportunity.
+- Profile Completeness: The candidate has a relatively complete profile, which suggests they are serious about their career.
+
+RISKS:
+- Current Title: The candidate's current title is Customer Support, which is not a technical role and does not align with the job requirements.
+- Career Titles: The candidate has a diverse range of career titles, including non-technical roles like HR Manager and Accountant, which raises concerns about their technical expertise.
+- Top Skills: The candidate's top skills are Next.js, Java, Scrum, Microservices, Angular, and Terraform, which are not directly related to the job requirements.
+
+FINAL_DECISION: Reject"
+CAND_0000084,"FIT_SCORE: 20
+
+STRENGTHS:
+- 10+ years of experience
+- Familiarity with some technical skills such as PostgreSQL, Databricks, and Hadoop
+
+RISKS:
+- Primary background is in Marketing, which does not align with the job requirements
+- Lack of direct experience in AI/ML, Retrieval Systems, Ranking Systems, Embeddings, Vector Databases, and Production ML Systems
+
+FINAL_DECISION: Reject"
+CAND_0000060,"FIT_SCORE: 20
+
+STRENGTHS:
+- Relevant experience as a Cloud Engineer (8 years)
+- Open to work (True)
+
+RISKS:
+- Lack of direct experience in AI/ML (Retrieval, Ranking, Embeddings, Vector Databases, Production ML)
+- Presence of non-technical skills (Accounting, Marketing) in top skills
+- Presence of non-technical skills (Marketing) in headline
+
+FINAL_DECISION: Reject"
+CAND_0000026,"FIT_SCORE: 20
+
+STRENGTHS:
+- The candidate has 6.8 years of experience, which is a decent amount of experience.
+- The candidate has some technical skills such as Apache Beam, Kubeflow, and Docker, which could be relevant to the role.
+
+RISKS:
+- The candidate's primary background is Graphic Design, which is not a preferred background for this role.
+- The candidate's skills and experience do not strongly align with the required skills and experience for the Senior AI Engineer position.
+- The candidate is not open to work, which makes it unlikely that they would be interested in the role even if they were a strong fit.
+
+FINAL_DECISION: Reject"
