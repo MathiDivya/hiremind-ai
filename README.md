@@ -258,7 +258,7 @@ Vector databases such as FAISS and Pinecone, learning to rank models, real-time 
 
 ## Authors
 
-Mathi Naga Sai Divya, 
-Yasaswini S
+**Mathi Naga Sai Divya**  
+**Yasaswini S**
 
-Built for the Redrob Intelligent Candidate Discovery & Ranking Challenge.
+Developed as part of **The Data & AI Challenge by Redrob**.
