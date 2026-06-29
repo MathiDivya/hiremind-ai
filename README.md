@@ -50,6 +50,22 @@ Final Explainable Ranking
 | Explainability          | Creates human-readable explanation for each recommendation                               |
 | Candidate Shortlisting  | Prepares recruiter-friendly shortlisted candidates                                         |
 
+## Behavioral Intelligence
+
+HireMind-AI utilizes various behavioral factors in estimating the availability of the candidate and the likelihood of the recruitment process.
+
+Some of the behavioral signals include:
+
+- Response rates of recruiters
+- Activity level of profiles
+- Assessment behavior
+- Save/bookmark frequency by recruiters
+- Interview completion rate
+- Responsiveness of candidates
+- Platform engagement signals
+
+The signals are combined to form the behavioral intelligence score.
+
 ## Repository Structure
 
 ```text
@@ -166,15 +182,37 @@ python app.py
 
 ## Methodology
 
-Candidates are ranked using HireMind-AI’s multi-step pipeline:
+Ranking is performed via HireMind-AI’s multi-staged pipeline:
 
-1. Textual representation of job descriptions and candidate profiles.
-2. Creating embeddings using Sentence Transformers.
-3. Semantic similarity between candidates and job descriptions.
-4. Behavioral features like recruiter response times and platform interaction.
-5. Calculating hybrid scores.
-6. Reranking of top candidates by Groq-backed recruiter agents.
-7. Generating explanations and rankings.
+1. Creating text representations of job descriptions and candidate profiles.
+2. Computing semantic embeddings using Sentence Transformers.
+3. Computing semantic similarity between candidate profiles and job descriptions.
+4. Performing career-context evaluation considering number of years of experience, job title similarity, and career progression.
+5. Calculating behavioral intelligence using responsiveness, activity, and engagement of the candidate profile by recruiters.
+6. Computing hybrid score based on the combination of semantic similarity, behavioral intelligence, and JD-Fit scores.
+7. Selecting Top-K candidates for evaluation.
+8. Re-ranking selected candidates with the help of Groq-powered recruiter reasoning.
+9. Generating explainable recommendations.
+
+### Hybrid Scoring Formula
+
+```text
+Final Score = 
+0.4 x Semantic Similarity + 
+0.3 x Behavioral Score + 
+0.3 x JD-Fit Score
+```
+## Robustness
+
+HireMind-AI is built on the principle of a multistep ranking pipeline.
+
+In cases where access to Groq APIs is not possible, HireMind-AI will be able to independently generate a set of rankings based on:
+
+- Semantic Similarity Score
+- Behavioral Intelligence Score
+- Career Context & JD-Fit Scores
+
+The re-ranking by an LLM-based recruiter works as a supplementary step rather than a necessity.
 
 ## Outputs
 
