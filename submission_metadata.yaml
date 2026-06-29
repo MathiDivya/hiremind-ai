@@ -1,0 +1,26 @@
+team_name: "Schrodinger's pupil"
+
+primary_contact_name: "Mathi Naga Sai Divya"
+
+github_repo: "https://github.com/MathiDivya/hiremind-ai"
+
+methodology_summary: |
+HireMind-AI is an intelligent candidate discovery and ranking engine
+that aims to tackle the issues faced by legacy ATS engines.
+
+The pipeline uses semantic search, behavioral intelligence, and
+LLM-driven recruiter reasoning in order to find the best possible candidates.
+
+Pipeline consists of following steps:
+(1) Candidate to job matching using sentence transformers.
+(2) Behavioral signals analysis for understanding engagement of candidate and recruiter.
+(3) Hybrid scoring based on semantic, behavioral and JD fit scores.
+(4) Recruiters re-ranking using Groq LLM.
+(5) Explainable ranking generation with reasoning behind.
+
+ai_tools_declared:
+
+"ChatGPT"
+"Groq API"
+
+compute_environment: "Google Colab, Python 3.12, CPU/GPU"
