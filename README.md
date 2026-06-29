@@ -204,15 +204,25 @@ Final Score =
 ```
 ## Robustness
 
-HireMind-AI is built on the principle of a multistep ranking pipeline.
+The HireMind-AI model relies on a multi-step ranking pipeline.
 
-In cases where access to Groq APIs is not possible, HireMind-AI will be able to independently generate a set of rankings based on:
+In situations where there is no access to Groq API, HireMind-AI is able to rank candidates autonomously based on:
 
-- Semantic Similarity Score
-- Behavioral Intelligence Score
-- Career Context & JD-Fit Scores
+* Semantic Similarity Scoring
+* Behavioral Intelligence Scoring
+* Career Context and JD-Fit Scoring
 
-The re-ranking by an LLM-based recruiter works as a supplementary step rather than a necessity.
+The Layered Large Language Model (LLM)-based recruiter re-ranking step functions as an improvement instead of an essential dependence of the system.
+
+## Scalability
+
+The HireMind-AI system implements a two-tier ranking approach.
+
+1. The first tier employs a scalable hybrid retrieval component to rank all candidates on the basis of semantic similarities, behavioral intelligence, and career-context scores.
+
+2. Only the Top-K ranked candidates are then processed by the Groq-enabled recruiter agent to perform more detailed analysis and generate explanations.
+
+The described approach makes the solution scalable to large sets of candidates.
 
 ## Outputs
 
