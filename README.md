@@ -70,28 +70,19 @@ The score is generated based on the Behavioral Intelligence Signals.
 ```text
 HireMind-AI/
 │
-├── modules/
-│   ├── candidate_parser.py
-│   ├── data_loader.py
-│   ├── embeddings.py
-│   ├── explainability.py
-│   ├── jd_parser.py
-│   ├── reranker.py
-│   ├── scorer.py
-│   └── text_builder.py
-│
 ├── HireMind_AI.ipynb
-├── app.py
 ├── final_submission.csv
 ├── explanations.csv
+├── submission_metadata.yaml
 ├── requirements.txt
 ├── README.md
-| .gitignore
+├── .gitignore
 ```
 
 ## Technology Stack
 
 Python, Sentence Transformers, Scikit-learn, Pandas, NumPy, Groq API, Google Colab, Git & GitHub.
+
 ## Installation
 
 Clone the repository:
