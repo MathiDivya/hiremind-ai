@@ -167,17 +167,20 @@ candidate_id | rank | score | reasoning
 
 ## Running the Project
 
-This project can run either via the notebook:
+The main code for the HireMind-AI system can be found in `HireMind_AI.ipynb`.
 
-```text
-HireMind_AI.ipynb
-```
+This notebook contains the full pipeline, which consists of:
 
-or through the command line:
+- Candidate profiles preprocessing
+- Generation of semantic embeddings
+- Matching of candidates to jobs
+- Behavioral intelligence scoring
+- Career-context scoring
+- Hybrid ranking
+- LLM-based re-ranking
+- Explainable recommendations generation
 
-```bash
-python app.py
-```
+To run the project, simply open `HireMind_AI.ipynb` in either Google Colab or Jupyter Notebook.
 
 ## Methodology
 
